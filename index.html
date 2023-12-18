@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>我的 GitHub 简历</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia's Visit</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,16 +19,15 @@
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #005f73;
             color: #fff;
             padding-top: 30px;
             min-height: 70px;
-            border-bottom: #f4f4f4 3px solid;
+            border-bottom: #bb3e03 3px solid;
         }
         header a {
             color: #fff;
             text-decoration: none;
-            text-transform: uppercase;
             font-size: 16px;
         }
         header ul {
@@ -37,36 +38,25 @@
             display: inline;
             margin: 0 20px;
         }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
         header .highlight, header .current a {
-            color: #e8491d;
+            color: #bb3e03;
             font-weight: bold;
         }
         header a:hover {
             color: #ffffff;
             font-weight: bold;
         }
-        .showcase {
-            min-height: 400px;
-            background: url('background.jpg') no-repeat 0 -400px;
-            text-align: center;
+        .banner {
+            padding: 40px 0;
+            background: url('banner.jpg') no-repeat 0 0;
+            background-size: cover;
             color: #fff;
         }
-        .showcase h1 {
-            margin-top: 100px;
+        .banner h1 {
             font-size: 55px;
             margin-bottom: 10px;
         }
-        .showcase p {
+        .banner p {
             font-size: 20px;
         }
     </style>
@@ -74,27 +64,26 @@
 <body>
     <header>
         <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">我的</span> GitHub 简历</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="#">主页</a></li>
-                    <li><a href="https://github.com/yourusername">我的 GitHub</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
     </header>
 
-    <div class="container">
-        <section class="showcase">
-            <h1>欢迎访问我的个人网站</h1>
-            <p>这里是我的技术和项目展示平台</p>
-        </section>
+    <div class="banner">
+        <div class="container">
+            <h1>Welcome to My Personal Website!</h1>
+            <p>Olivia, you are the first one to visit my personal website. Have a sweet day!</p>
+        </div>
     </div>
 
+    <!-- Add more sections here as needed -->
+
     <footer>
-        <p>&copy; 2023 我的 GitHub 简历网站</p>
+        <p>&copy; 2023 My Personal Website</p>
     </footer>
 </body>
 </html>
